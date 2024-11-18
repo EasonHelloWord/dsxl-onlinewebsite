@@ -2,10 +2,27 @@
 layout: default
 ---
 
+<style>
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .particles-icon {
+    display: inline-block;
+    margin-top: 90px;
+  }
+</style>
+
 <article id="cv">
   {% include header.html %}
   <main>
     {{ content }}
+    <div class="jumbotron text-center">
+    <a class="particles-icon" href="{{ site.url }}">{% include svg/arrow-left-circled.svg %}</a></div>
   </main>
   {% include footer.html %}
 </article>
