@@ -11,14 +11,6 @@ layout: default
     text-align: center;
     padding: 10px;
   }
-  .particles-icon {
-    display: inline-block;
-    margin-top: 90px;    
-    svg path {
-      stroke: var(--color-particles-text-post) !important;
-      stroke-width: 0.07em;
-    }
-  }
 </style>
 
 <article id="cv">
@@ -26,7 +18,9 @@ layout: default
   <main>
     {{ content }}
     <div class="jumbotron text-center">
-    <a class="particles-icon" href="{{ site.url }}">{% include svg/arrow-left-circled.svg %}</a></div>
+      <div class="particles-icon">
+        <a class="particles-icon-theme" href="{{ site.url }}">{% include svg/arrow-left-circled.svg %}</a></div>
+    </div>
   </main>
   {% include footer.html %}
 </article>

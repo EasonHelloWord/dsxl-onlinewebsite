@@ -82,6 +82,16 @@
   }
 }
 
+.particles-icon-theme {
+  display: inline-block;
+  margin-top: 90px;
+
+  svg path {
+    stroke: var(--color-particles-text-post) !important;
+    stroke-width: 0.07em;
+  }
+
+}
 .particles-scroll {
   position: absolute;
   bottom: 5%;
