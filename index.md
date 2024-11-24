@@ -17,7 +17,7 @@ title: Home
 
 收货地址写班级姓名！！！
 
-<a href="https://afdian.com/item/153c7652a4a011ef89ec5254001e7c00" target="_blank">点击报名</a>
+<a href="https://m.tb.cn/h.Tc7k3Vx?tk=beR53t5LPbb" target="_blank">点击购票</a>
 
 <br/><br/>
 
@@ -151,6 +151,6 @@ title: Home
 
 快来报名吧！
 
-<a href="https://afdian.com/item/153c7652a4a011ef89ec5254001e7c00" target="_blank">点击报名</a>
+<a href="https://m.tb.cn/h.Tc7k3Vx?tk=beR53t5LPbb" target="_blank">点击购票</a>
 
 <!-- {% include archive.html %} -->
